@@ -7,14 +7,16 @@
 # Inherit from redwood device
 $(call inherit-product, device/xiaomi/redwood/device.mk)
 
-# Inherit some common PixelOS stuff
-$(call inherit-product, vendor/custom/config/common_full_phone.mk)
+# Inherit some common halcyon stuff
+$(call inherit-product, vendor/halcyon/config/common.mk)
 
 PRODUCT_BRAND := POCO
 PRODUCT_DEVICE := redwood
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := 22101320G
-PRODUCT_NAME := custom_redwood
+PRODUCT_NAME := halycon_redwood
+
+WITH_GMS := true
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 

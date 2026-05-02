@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/custom_redwood.mk
+    $(LOCAL_DIR)/halcyon_redwood.mk
